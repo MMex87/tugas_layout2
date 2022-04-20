@@ -13,3 +13,21 @@ class DoneTourismProvider extends ChangeNotifier{
     notifyListeners();
   }
 }
+
+
+
+// import 'package:flutter/foundation.dart';
+// import 'package:tugas_layout/data/model/wisata.dart';
+//
+// class DoneTourismProvider extends ChangeNotifier{
+//   final List<Wisata> _doneTourismPlaceList = [];
+//
+//   List<Wisata> get doneTourismPlaceList => _doneTourismPlaceList;
+//
+//   void complate(Wisata place, bool isDone){
+//     isDone
+//         ? _doneTourismPlaceList.add(place)
+//         : _doneTourismPlaceList.remove(place);
+//     notifyListeners();
+//   }
+// }

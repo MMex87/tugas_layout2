@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:tugas_layout/provider/done_tourism_provider.dart';
 import 'package:tugas_layout/main_screen.dart';
 
-void main(){
+void main() {
   runApp(const MyApp());
 }
 
