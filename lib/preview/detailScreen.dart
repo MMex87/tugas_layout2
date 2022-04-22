@@ -17,10 +17,8 @@ class DetailScreen extends StatelessWidget {
             scrollDirection: Axis.vertical,
             children: <Widget>[
               FittedBox(
-                child: Image.asset(
-                  place.imageassets,
-                  height: 200,
-                ),
+                child:
+                    Image(image: NetworkImage(place.imageassets), height: 200),
                 fit: BoxFit.fill,
               ),
               Container(
@@ -72,35 +70,45 @@ class DetailScreen extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(4.0),
                       child: ClipRRect(
-                        child: Image.asset(place.gambar1),
+                        child: Image(
+                          image: NetworkImage(place.gambar1),
+                        ),
                         borderRadius: BorderRadius.circular(15.0),
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(4.0),
                       child: ClipRRect(
-                        child: Image.asset(place.gambar2),
+                        child: Image(
+                          image: NetworkImage(place.gambar2),
+                        ),
                         borderRadius: BorderRadius.circular(15.0),
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(4.0),
                       child: ClipRRect(
-                        child: Image.asset(place.gambar3),
+                        child: Image(
+                          image: NetworkImage(place.gambar3),
+                        ),
                         borderRadius: BorderRadius.circular(15.0),
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(4.0),
                       child: ClipRRect(
-                        child: Image.asset(place.gambar4),
+                        child: Image(
+                          image: NetworkImage(place.gambar4),
+                        ),
                         borderRadius: BorderRadius.circular(15.0),
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(4.0),
                       child: ClipRRect(
-                        child: Image.asset(place.gambar5),
+                        child: Image(
+                          image: NetworkImage(place.gambar5),
+                        ),
                         borderRadius: BorderRadius.circular(15.0),
                       ),
                     ),

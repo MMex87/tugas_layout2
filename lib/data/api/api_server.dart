@@ -12,4 +12,8 @@ class ApiServer {
       throw Exception('Failed to load wisataJombang');
     }
   }
+
+  // void addWisata()async{
+  //   final response = await http.post(url)
+  // }
 }
